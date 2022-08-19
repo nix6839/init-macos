@@ -16,5 +16,6 @@ func main() {
 	install.Nvm()
 	install.Rust()
 	install.Golang()
+	install.Python()
 	install.VSCode()
 }

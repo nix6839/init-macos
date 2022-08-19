@@ -11,6 +11,7 @@ func main() {
 	prepare.Brew()
 	prepare.Chezmoi()
 
+	install.Mas()
 	install.Zsh()
 	install.Neovim()
 	install.Nvm()

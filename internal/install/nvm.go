@@ -34,6 +34,8 @@ func Nvm() {
 		Arg(fmt.Sprintf(". '%s'; nvm install --lts --latest-npm", nvmScriptPath)).
 		Run()
 
+	command.New("npm").Arg("install").Arg("-g").Arg("corepack").Run()
+
 	command.New("corepack").Arg("enable").Run()
 	command.New("corepack").
 		Arg("prepare").

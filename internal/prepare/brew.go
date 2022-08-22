@@ -11,19 +11,19 @@ func fetchBrewScript() string {
 
 var (
 	fontPackages = []string{
-		"font-d2coding", "font-jetbrains-mono",
-		"font-jetbrains-mono-nerd-font", "font-pretendard",
+		"font-d2coding", "font-jetbrains-mono", "font-jetbrains-mono-nerd-font",
+		"font-pretendard",
 	}
 
 	cliPackages = []string{
-		"git", "neovim", "chezmoi", "lsd", "bat", "tldr", "git-delta",
-		"gnupg", "pinentry-mac", "shellcheck", "go", "mas",
+		"git", "neovim", "chezmoi", "lsd", "bat", "tldr", "git-delta", "gnupg",
+		"pinentry-mac", "shellcheck", "go", "golangci-lint", "mas",
 	}
 
 	caskPackages = []string{
 		"gureumkim", "microsoft-edge", "alacritty", "discord", "bitwarden",
-		"visual-studio-code", "notion", "slack", "spotify",
-		"telegram-desktop", "dropbox",
+		"visual-studio-code", "notion", "slack", "spotify", "telegram-desktop",
+		"dropbox",
 		// Does not support m1 native
 		"remix-ide", "tutanota",
 	}

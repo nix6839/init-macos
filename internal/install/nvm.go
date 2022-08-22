@@ -13,8 +13,6 @@ func fetchNvmScript() string {
 	return utils.FetchBody("https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh")
 }
 
-const nvmScriptUrl = "https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh"
-
 var nodePackages = []string{
 	"create-next-app", "create-vite", "create-turbo", "@nestjs/cli",
 	"typescript", "ts-node", "nodemon", "localtunnel", "npm-check-updates",

@@ -39,5 +39,5 @@ func (self command) Run() {
 		panic(err)
 	}
 
-	self.cmd.Wait()
+	self.cmd.Wait() //nolint:errcheck
 }

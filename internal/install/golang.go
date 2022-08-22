@@ -2,9 +2,16 @@ package install
 
 import "github.com/nix6839/macos-init/pkg/command"
 
+var golangPackages = []string{
+	"golang.org/x/tools/gopls@latest",
+	"honnef.co/go/tools/cmd/staticcheck@latest",
+}
+
 func Golang() {
-	command.New("go").
-		Arg("install").
-		Arg("golang.org/x/tools/gopls@latest").
-		Run()
+	for _, golangPackage := range golangPackages {
+		command.New("go").
+			Arg("install").
+			Arg(golangPackage).
+			Run()
+	}
 }

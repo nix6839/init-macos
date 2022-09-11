@@ -19,7 +19,7 @@ var nodePackages = []string{
 	"npm-check-updates", "sort-package-json",
 }
 
-func Nvm() {
+func Node() {
 	command.New("bash").
 		Arg("-c").
 		Arg(fetchNvmScript()).

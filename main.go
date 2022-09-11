@@ -14,7 +14,7 @@ func main() {
 	install.Mas()
 	install.Zsh()
 	install.Neovim()
-	install.Nvm()
+	install.Node()
 	install.Rust()
 	install.Golang()
 	install.Python()

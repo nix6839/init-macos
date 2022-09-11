@@ -37,7 +37,7 @@ func Nvm() {
 	command.New("corepack").Arg("enable").Run()
 	command.New("corepack").
 		Arg("prepare").
-		Arg("pnpm@7.9.1").
+		Arg("pnpm@7.11.0").
 		Arg("--activate").
 		Run()
 

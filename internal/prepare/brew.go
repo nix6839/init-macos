@@ -24,9 +24,9 @@ var (
 	caskPackages = []string{
 		"gureumkim", "microsoft-edge", "alacritty", "discord", "bitwarden",
 		"visual-studio-code", "notion", "slack", "spotify", "telegram-desktop",
-		"dropbox",
+		"dropbox", "remix-ide",
 		// Does not support m1 native
-		"remix-ide", "tutanota",
+		"tutanota",
 	}
 )
 

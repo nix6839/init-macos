@@ -37,7 +37,7 @@ func Node() {
 	command.New("corepack").Arg("enable").Run()
 	command.New("corepack").
 		Arg("prepare").
-		Arg("pnpm@7.11.0").
+		Arg("pnpm@7.13.3").
 		Arg("--activate").
 		Run()
 

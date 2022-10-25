@@ -24,9 +24,13 @@ var (
 	caskPackages = []string{
 		"gureumkim", "microsoft-edge", "alacritty", "discord", "bitwarden",
 		"visual-studio-code", "notion", "slack", "spotify", "telegram-desktop",
-		"dropbox", "remix-ide",
+		"dropbox", "remix-ide", "firefox", "figma",
 		// Does not support m1 native
 		"tutanota",
+	}
+
+	caskNoQuarantinePackages = []string{
+		"chromium",
 	}
 )
 
@@ -44,5 +48,11 @@ func Brew() {
 	command.New("brew").
 		Arg("install").
 		Args(fontPackages).Args(cliPackages).Args(caskPackages).
+		Run()
+
+	command.New("brew").
+		Arg("install").
+		Arg("--no-quarantine").
+		Args(caskNoQuarantinePackages).
 		Run()
 }

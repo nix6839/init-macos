@@ -10,7 +10,7 @@ import (
 )
 
 func fetchNvmScript() string {
-	return utils.FetchBody("https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh")
+	return utils.FetchBody("https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.2/install.sh")
 }
 
 var nodePackages = []string{
@@ -37,7 +37,7 @@ func Node() {
 	command.New("corepack").Arg("enable").Run()
 	command.New("corepack").
 		Arg("prepare").
-		Arg("pnpm@7.13.3").
+		Arg("pnpm@7.14.0").
 		Arg("--activate").
 		Run()
 

@@ -10,7 +10,7 @@ import (
 )
 
 func fetchNvmScript() string {
-	return utils.FetchBody("https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.2/install.sh")
+	return utils.FetchBody("https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh")
 }
 
 var nodePackages = []string{

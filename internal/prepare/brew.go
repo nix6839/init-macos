@@ -16,7 +16,7 @@ var (
 	}
 
 	cliPackages = []string{
-		"git", "neovim", "chezmoi", "lsd", "bat", "tealdeer", "git-delta",
+		"git", "neovim", "chezmoi", "lsd", "bat", "fd", "tealdeer", "git-delta",
 		"gnupg", "pinentry-mac", "shellcheck", "go", "golangci-lint", "mas",
 		"python@3.10", "mkcert",
 	}

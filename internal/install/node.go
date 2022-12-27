@@ -15,8 +15,8 @@ func fetchNvmScript() string {
 
 var nodePackages = []string{
 	"create-next-app", "create-vite", "create-svelte", "create-turbo",
-	"@nestjs/cli", "typescript", "ts-node", "nodemon", "localtunnel",
-	"npm-check-updates", "sort-package-json",
+	"@nestjs/cli", "typescript", "ts-node", "nodemon", "npm-check-updates",
+	"sort-package-json",
 }
 
 func Node() {

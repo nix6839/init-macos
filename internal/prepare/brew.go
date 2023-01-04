@@ -16,15 +16,15 @@ var (
 	}
 
 	cliPackages = []string{
-		"git", "neovim", "chezmoi", "lsd", "bat", "fd", "tealdeer", "git-delta",
-		"gnupg", "pinentry-mac", "shellcheck", "go", "golangci-lint", "mas",
-		"python@3.10", "mkcert",
+		"git", "neovim", "chezmoi", "lsd", "bat", "fd", "bottom", "tealdeer",
+		"git-delta", "gnupg", "pinentry-mac", "shellcheck", "go",
+		"golangci-lint", "mas", "python@3.10", "mkcert",
 	}
 
 	caskPackages = []string{
-		"gureumkim", "microsoft-edge", "alacritty", "discord", "bitwarden",
-		"visual-studio-code", "notion", "slack", "spotify", "telegram-desktop",
-		"dropbox", "remix-ide", "firefox", "figma",
+		"gureumkim", "ngrok", "microsoft-edge", "alacritty", "discord",
+		"bitwarden", "visual-studio-code", "notion", "slack", "spotify",
+		"telegram-desktop", "dropbox", "remix-ide", "firefox", "figma",
 		// Does not support m1 native
 		"tutanota",
 	}
